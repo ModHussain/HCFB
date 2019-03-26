@@ -19,6 +19,7 @@ document.getElementById('contactForm').addEventListener('submit', submitForm);
 function submitForm(e){
   e.preventDefault();
 
+  
   //Get value
   var name = getInputVal('name');
   var company = getInputVal('company');
